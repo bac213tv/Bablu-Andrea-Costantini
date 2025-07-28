@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Il mio Portfolio</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="foto.html">Foto</a>
+      <a href="video.html">Video</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Benvenuto!</h2>
+      <p>Mi chiamo [Il tuo nome], sono un videomaker e fotografo con base a [Città].</p>
+      <p>Scopri i miei progetti qui sotto:</p>
+      <div class="card">
+        <a href="foto.html"><img src="img/foto_thumb.jpg" alt="Foto"></a>
+        <a href="video.html"><img src="img/video_thumb.jpg" alt="Video"></a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
